@@ -1,0 +1,7 @@
+# Example input for ProveKit demo
+# This is a dummy file - replace with actual witness values
+
+[main]
+x = 10
+y = 20
+expected_sum = 30

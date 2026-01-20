@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProveKit Demo</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="button_generate_proof">Generate Proof</string>
+    <string name="proof_result">Proof Result:</string>
+    <string name="initializing">Initializing ProveKit...</string>
+    <string name="proof_success">Proof generated successfully!</string>
+    <string name="proof_error">Error generating proof: %s</string>
+</resources>
