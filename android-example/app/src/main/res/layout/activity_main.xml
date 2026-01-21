@@ -13,12 +13,36 @@
         android:textSize="18sp"
         android:layout_marginBottom="20dp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Circuit:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCircuits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewCircuitDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:background="#f8f8f8"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp" />
+
     <Button
         android:id="@+id/buttonGenerateProof"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_generate_proof"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="20dp"
+        android:enabled="false" />
 
     <TextView
         android:id="@+id/textViewResult"
